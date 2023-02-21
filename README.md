@@ -34,9 +34,9 @@ Store you favorite Movies, Anime, Games, and TV shows with M.A.G.S. Perfect to s
 
 #### Trello Board
 
-### Link to Rendered Project
-
 https://trello.com/b/8j8BAE10/mags-saver
+
+### Link to Rendered Project
 
 ### Link to Backend Repo
 
