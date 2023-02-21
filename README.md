@@ -19,7 +19,7 @@ Store you favorite Movies, Anime, Games, and TV shows with M.A.G.S. Perfect to s
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/113205902/220481205-5ecbc4a1-d552-4bbf-b863-df5e11418c48.png)
+![image](https://user-images.githubusercontent.com/113205902/220482066-e1158e73-bcfa-4fa5-b8f0-a28868eb8757.png)
 
 ## Daily Plan
 
