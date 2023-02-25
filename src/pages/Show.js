@@ -14,6 +14,9 @@ const Show = () => {
     <div style={div}>
       <h1>{post.title}</h1>
       <h2>{post.rating}</h2>
+      <img src={post.image} alt="MAGS-Image"></img>
+      <h2>{post.completed}</h2>
+      <h2>{post.notes}</h2>
       <div style={{ textAlign: "center" }}>
         <h2>Create a M.A.G.S</h2>
         <Form action={`/update/${post.id}`} method="post">
@@ -28,6 +31,24 @@ const Show = () => {
             name="rating"
             placeholder="write Rating here"
             defaultValue={post.rating}
+          />
+          <input
+            type="text"
+            name="image"
+            placeholder="image address"
+            defaultValue={post.image}
+          />
+          <input
+            type="text"
+            name="completed"
+            placeholder="have you completed this MAGS"
+            defaultValue={post.completed}
+          />
+          <input
+            type="text"
+            name="notes"
+            placeholder="write Notes here"
+            defaultValue={post.notes}
           />
           <button>Update M.A.G.S</button>
         </Form>

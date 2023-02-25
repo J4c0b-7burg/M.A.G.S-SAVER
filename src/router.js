@@ -12,9 +12,9 @@ import {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-        <Route path="/" element={<App />}>
-          <Route path="" element={<Index />} loader={indexLoader} />
-          <Route path="post/:id" element={<Show />} loader={showLoader} />
+        <Route path="/" element={<App/>}>
+          <Route path="" element={<Index/>} loader={indexLoader} />
+          <Route path="post/:id" element={<Show/>} loader={showLoader} />
           <Route path="create" action={createAction}/>
           <Route path="update/:id" action={updateAction}/>
           <Route path="delete/:id" action={deleteAction}/>

@@ -7,10 +7,15 @@ export const createAction = async ({request}) => {
 
     const newMag = {
         title: formData.get("title"),
-        rating: formData.get("rating")
+        rating: formData.get("rating"),
+        image: formData.get("image"),
+        completed: formData.get("completed"),
+        notes: formData.get("notes")
+
+    
     }
 
-    await fetch(URL + "/mags/", {
+    await fetch(URL + "/Videog/", {
         method: "post",
         headers: {
             "Content-Type": "application/json"
@@ -28,10 +33,14 @@ export const updateAction = async ({request, params}) => {
 
     const updatedMag = {
         title: formData.get("title"),
-        rating: formData.get("rating")
+        rating: formData.get("rating"),
+        image: formData.get("image"),
+        completed: formData.get("completed"),
+        notes: formData.get("notes")
+
     }
 
-    await fetch(URL + `/mags/${id}/`, {
+    await fetch(URL + `/Videog/${id}/`, {
         method: "put",
         headers: {
             "Content-Type": "application/json"
@@ -45,7 +54,7 @@ export const updateAction = async ({request, params}) => {
 export const deleteAction = async ({params}) => {
     const id = params.id
 
-    await fetch(URL + `/mags/${id}/`, {
+    await fetch(URL + `/Videog/${id}/`, {
         method: "delete",
     })
 
