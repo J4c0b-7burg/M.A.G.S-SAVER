@@ -39,6 +39,10 @@ https://trello.com/b/8j8BAE10/mags-saver
 
 ### Link to Rendered Project
 
-### Link to Backend Repo
+https://mags-saver-frontend.onrender.com
 
-https://github.com/J4c0b-7burg/M.A.G.S-SAVER-BACKEND
+### Link to Backend Repo and Rendered Backend
+
+https://github.com/J4c0b-7burg/M.A.G.S-SAVER-BACKEND - Repo
+
+https://m-a-g-s-saver.onrender.com - Deployment
