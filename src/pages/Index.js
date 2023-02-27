@@ -6,7 +6,7 @@ const Index = (props) => {
   const mags = useLoaderData()
 
   return <>
-  <div style={{textAlign: "center"}}>
+  <div>
   <h2>Create a M.A.G.S</h2>
   <Form action="/create" method="post">
       <input type="text" name="title" placeholder="write Tilte here"/>
@@ -14,7 +14,7 @@ const Index = (props) => {
       <input type="text" name="image" placeholder="add Image address"/>
       <input type="text" name="completed" placeholder="Complete/Incomplete?"/>
       <input type="text" name="notes" placeholder="write notes here"/>
-      <button>Create New M.A.G.S</button>
+      <button>Create M.A.G.S</button>
   </Form>
   </div>
   {mags.map((post) => <Post post={post} key={post.id} />)}

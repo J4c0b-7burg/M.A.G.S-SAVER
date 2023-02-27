@@ -18,7 +18,6 @@ const Show = () => {
       <h2>{post.completed}</h2>
       <h2>{post.notes}</h2>
       <div style={{ textAlign: "center" }}>
-        <h2>Create a M.A.G.S</h2>
         <Form action={`/update/${post.id}`} method="post">
           <input
             type="text"
