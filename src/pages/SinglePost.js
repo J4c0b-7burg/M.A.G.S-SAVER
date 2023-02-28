@@ -13,7 +13,7 @@ const Show = () => {
   return (
     <div style={div}>
       <h1>{post.title}</h1>
-      <h2>{post.rating}</h2>
+      <h2>Rated {post.rating}/10</h2>
       <img src={post.image} alt="MAGS-Image"></img>
       <h2>{post.completed}</h2>
       <h2>{post.notes}</h2>
